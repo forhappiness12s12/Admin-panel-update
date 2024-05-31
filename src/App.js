@@ -3,7 +3,7 @@ import { supabase } from './supabaseClient';
 import Login from './Login';
 import Header from './Header'; // Import the Header component
 import ImageDisplay from './ImageDisplay';
-import Prac from './prac';
+import Prac from './Setting';
 
 const App = () => {
   const [session, setSession] = useState(null);
