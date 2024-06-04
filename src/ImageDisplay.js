@@ -174,7 +174,7 @@ const ImageDisplay = ({ onLogout }) => {
       {selectedImage && (
         <button
           onClick={handleDelete}
-          className="mt-8 px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-600 transition"
+          className="mt-10 px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-600 transition"
         >
           Delete
         </button>

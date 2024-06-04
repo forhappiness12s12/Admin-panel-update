@@ -6,12 +6,12 @@ const Header = ({ onLogout, user }) => {
   <h1 className="text-base sm:text-lg md:text-xl font-bold">No Ordinary Clothing Limited Admin Panel</h1>
   {user && (
     <div className="flex items-center">
-      <span className="hidden sm:block">WELCOME, {user.email}</span>
+      <span className="hidden sm:block">Welcome, {user.email}</span>
       <button 
         onClick={onLogout} 
         className="ml-2 px-2 py-1 text-xs sm:px-3 sm:py-1 sm:text-sm bg-[#464545]"
       >
-        LOGOUT
+        Logout
       </button>
     </div>
   )}
