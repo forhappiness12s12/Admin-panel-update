@@ -36,11 +36,11 @@ const App = () => {
           setSession(null);
         }} />;
       case 'component2':
-        return <div>about Setting1</div>;
+        return <div>SETTING</div>;
       case 'component3':
-        return <div>about user1</div>;
+        return <div>ABOOUT USERS</div>;
       case 'component4':
-        return <div>option1</div>;
+        return <div>OPTION</div>;
       default:
         return <Prac onButtonClick={handleButtonClick} />;
     }
