@@ -149,7 +149,7 @@ const ImageDisplay = ({ onLogout }) => {
             </div>
           ))
         ) : (
-          <p>No images found.</p>
+          <p>NO IMAGE FOUND.</p>
         )}
         <div className="mb-6 flex space-x-4">
   <input
@@ -176,7 +176,7 @@ const ImageDisplay = ({ onLogout }) => {
           onClick={handleDelete}
           className="mt-8 px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-600 transition"
         >
-          DELETE
+          Delete
         </button>
       )}
     </div>
