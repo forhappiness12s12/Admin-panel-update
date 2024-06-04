@@ -38,7 +38,7 @@ const App = () => {
       case 'component2':
         return <div>SETTING</div>;
       case 'component3':
-        return <div>ABOOUT</div>;
+        return <div>YET DATA DOSEN'T EXIST</div>;
       case 'component4':
         return <div>OPTION</div>;
       default:
