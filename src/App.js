@@ -38,9 +38,9 @@ const App = () => {
       case 'component2':
         return <div>SETTING</div>;
       case 'component3':
-        return <div>YET DATA DOSEN'T EXIST</div>;
+        return <div>yet data dosen't exist</div>;
       case 'component4':
-        return <div>OPTION</div>;
+        return <div>Options</div>;
       default:
         return <Prac onButtonClick={handleButtonClick} />;
     }
