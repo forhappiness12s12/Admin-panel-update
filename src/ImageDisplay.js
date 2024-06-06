@@ -161,7 +161,7 @@ const ImageDisplay = ({ onLogout }) => {
   
   <label
     htmlFor="fileInput"
-    className="w-48 h-48 bg-cover bg-center flex items-center justify-center cursor-pointer border-2 border-[#494949] rounded-md p-4"
+    className="w-50 h-48 bg-cover bg-center flex items-center justify-center cursor-pointer border-2 border-[#494949] rounded-md p-4"
     style={{ backgroundImage: 'url("https://krvevkxigsdnikvakxjt.supabase.co/storage/v1/object/public/im/plus30.png")', backgroundSize: '60%', backgroundRepeat: 'no-repeat' }}
   >
   </label>
@@ -176,7 +176,7 @@ const ImageDisplay = ({ onLogout }) => {
           onClick={handleDelete}
           className="mt-10 px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-600 transition"
         >
-          DELET
+          Delete
         </button>
       )}
     </div>
