@@ -9,9 +9,9 @@ const Header = ({ onLogout, user }) => {
       <span className="hidden sm:block">Welcome, {user.email}</span>
       <button 
         onClick={onLogout} 
-        className="ml-2 px-2 py-1 text-xs sm:px-3 sm:py-1 sm:text-sm bg-[#464545]"
+        className="ml-4 px-2 py-1 text-xs sm:px-3 sm:py-1 sm:text-sm bg-[#464545]"
       >
-        Logout Panel
+        LOGOUT
       </button>
     </div>
   )}
