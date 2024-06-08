@@ -22,7 +22,7 @@ const Login = ({ onLogin }) => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 sm:w-[480px] w-[300px]">
-      <div className="text-3xl mb-4">ADMIN PANEL SIGN IN</div>
+      <div className="text-3xl mb-4">SIGN IN</div>
       <form
         onSubmit={handleLogin}
         className={`bg-white rounded-lg shadow-md py-4 w-full `}
@@ -49,7 +49,7 @@ const Login = ({ onLogin }) => {
           type="submit"
           className="w-full mt-6 p-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
         >
-          LOGIN THIS PANEL
+          LOGIN
         </button>
         </div>
         {error && <p className="mt-4 text-red-500">{error}</p>}
