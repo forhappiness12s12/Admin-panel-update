@@ -28,7 +28,7 @@ const Login = ({ onLogin }) => {
         className={`bg-white rounded-lg shadow-md py-4 w-full `}
       >
         <div className="grid grid-cols-1 px-10">
-          <label className="block text-lg  font-medium">EMAIL</label>
+          <label className="block text-lg  font-medium">Email</label>
           <input
             className="w-full p-2 border border-gray-300 rounded-md"
             type="email"
@@ -49,7 +49,7 @@ const Login = ({ onLogin }) => {
           type="submit"
           className="w-full mt-6 p-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
         >
-          LOGIN
+          Login
         </button>
         </div>
         {error && <p className="mt-4 text-red-500">{error}</p>}
