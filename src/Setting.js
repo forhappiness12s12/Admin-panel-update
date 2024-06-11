@@ -14,7 +14,7 @@ const Prac = ({ onButtonClick }) => {
           onClick={() => onButtonClick('component2')} 
           className="w-full bg-[#616060] text-white py-3 px-4 rounded-lg shadow-lg transition-transform transform hover:scale-105"
         >
-          3D MODEL SETTING 
+          3D Model Setting
         </button>
         <button 
           onClick={() => onButtonClick('component3')} 
