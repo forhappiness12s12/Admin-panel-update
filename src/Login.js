@@ -49,7 +49,7 @@ const Login = ({ onLogin }) => {
           type="submit"
           className="w-full mt-6 p-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
         >
-          Login
+          LOGIN
         </button>
         </div>
         {error && <p className="mt-4 text-red-500">{error}</p>}
