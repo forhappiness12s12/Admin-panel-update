@@ -40,7 +40,7 @@ const App = () => {
       case 'component3':
         return <div>Not yet data dosent exist</div>;
       case 'component4':
-        return <div>Options</div>;
+        return <div>Options for happiness</div>;
       default:
         return <Prac onButtonClick={handleButtonClick} />;
     }
